@@ -36,3 +36,6 @@ dependencies {
     compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 
 }
+
+apply from: 'bintrayUpload.gradle'
+

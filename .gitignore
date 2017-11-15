@@ -10,3 +10,6 @@
 .gradle/
 .idea/
 gradle
+gradle.properties
+gradlew.bat
+gradlew
