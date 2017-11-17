@@ -1,0 +1,27 @@
+ext {
+    bintrayRepo = 'maven'  //仓库名称
+    bintrayName = 'com.chenli.pay' // add new packageName 名称, 填写包名
+
+    publishedGroupId = 'com.chenli.pay' // GroupId
+    libraryName = 'pay'
+    artifact = 'pay'  // artifactId
+
+    libraryDescription = '银联、支付宝、微信 聚合支付'
+
+    siteUrl = 'https://github.com/schle/MultiPay'
+    gitUrl = 'git@github.com:schle/MultiPay.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'chenli'
+    developerName = 'chenli'
+    developerEmail = 'chenlichn@126.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+apply from: 'installV2.gradle'
+apply from: 'bintrayV2.gradle'

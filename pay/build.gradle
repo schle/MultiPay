@@ -37,5 +37,5 @@ dependencies {
 
 }
 
-apply from: 'bintrayUpload.gradle'
+apply from: 'uploadV2.gradle'
 
